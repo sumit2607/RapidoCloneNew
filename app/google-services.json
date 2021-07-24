@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "138394398779",
+    "project_id": "test-8614e",
+    "storage_bucket": "test-8614e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:138394398779:android:6d4f2a13ce6b921fad2c1e",
+        "android_client_info": {
+          "package_name": "com.iteyes.placesproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "138394398779-p9eu428ii7k4kim43ib5dp9de0i21n3l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCdnZVr2r5mKSUIjZkFCMPxme6sZzrw9sA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "138394398779-p9eu428ii7k4kim43ib5dp9de0i21n3l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MapActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relbook"
+        android:background="#FFF202">
+
+        <TextView
+            android:id="@+id/tvback5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_arrow_back_24"
+            android:drawableLeft="@drawable/ic_baseline_arrow_back_24"
+            android:layout_margin="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Booking Details"
+            android:layout_toRightOf="@+id/tvback5"
+            android:textSize="25sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="25dp"
+            android:textColor="#000000
+"
+            android:layout_marginLeft="25dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relbike"
+        android:layout_below="@+id/relbook">
+        <ImageView
+            android:id="@+id/suzuki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_margin="30dp"/>
+        <TextView
+            android:id="@+id/tvzx"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suzuki ZX"
+            android:layout_toRightOf="@+id/suzuki"
+            android:layout_marginTop="30dp"
+            android:textColor="#000000
+"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RJ31 Sf9360 "
+            android:textColor="#000000
+"
+            android:textSize="15sp"
+
+            android:gravity="center"
+            android:layout_toRightOf="@+id/suzuki"
+            android:layout_below="@+id/tvzx"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="#FFF202"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Arriving In"
+            android:textColor="#000000
+"
+            android:textSize="18sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4 mins"
+            android:textColor="#000000
+"
+            android:textSize="25sp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="60dp"
+            android:layout_marginRight="15dp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ivline2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/relbike"/>
+    <TextView
+        android:id="@+id/captain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Captain"
+        android:layout_below="@+id/ivline2"
+        android:layout_margin="30dp"
+        android:textColor="#000000
+"
+        android:textSize="20sp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/reldriver"
+        android:layout_below="@+id/captain">
+        <ImageView
+            android:id="@+id/ivdriver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="30dp"/>
+        <TextView
+            android:id="@+id/tvnimit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nimit"
+            android:layout_toRightOf="@+id/ivdriver"
+            android:textColor="#000000
+"
+            android:textSize="20sp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="I can speak in English and hindi"
+            android:textColor="#000000"
+            android:textSize="15sp"
+
+            android:gravity="center"
+            android:layout_toRightOf="@+id/ivdriver"
+            android:layout_marginTop="25dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.8"
+            android:textColor="#000000"
+            android:layout_toRightOf="@+id/tvnimit"
+            android:textSize="18sp"
+            android:layout_marginStart="50dp"
+
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="50dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp"/>
+
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/ivline3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/reldriver"/>
+    <TextView
+        android:id="@+id/journey"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Journey"
+        android:layout_below="@+id/ivline3"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"/>
+    <TextView
+        android:id="@+id/addfrom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="#122,Gali no 4, Bikaner sweets house, rajiv chowk, new delhi."
+        android:drawableStart="@drawable/ic_round_account_circle_24"
+        android:layout_below="@+id/journey"
+        android:layout_marginStart="25dp"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:drawableLeft="@drawable/ic_round_account_circle_24"
+        android:layout_marginLeft="25dp" />
+
+    <ImageView
+        android:id="@+id/ivline4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="15dp"/>
+
+
+
+
+</RelativeLayout>

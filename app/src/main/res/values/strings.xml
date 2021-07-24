@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Rapido clone</string>
+    <string name="title_activity_map">MapActivity</string>
+
+    <string name="we_will_send_you_an_one_time_otp_on_this_given_mobile_number">We will send you an one time otp on this given mobile number</string>
+    <string name="enter_mobile_number">Enter Mobile number</string>
+    <string name="otp_verfication">OTP Verfication</string>
+    <string name="title_activity_dashboard">Map</string>
+    <string name="_368_d_block_rahpurkhurd">368 , D Block, RahpurKhurd</string>
+    <string name="google_maps_api">AIzaSyDRnl8Ie4JqpMwtadNi7Kz208EHK1ji9wA</string>
+</resources>
